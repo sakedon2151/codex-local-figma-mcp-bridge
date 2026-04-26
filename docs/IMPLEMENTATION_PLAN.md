@@ -380,12 +380,8 @@ Manifest requirements:
   "ui": "ui.html",
   "documentAccess": "dynamic-page",
   "networkAccess": {
-    "allowedDomains": [
-      "ws://localhost:3846",
-      "http://localhost:3846",
-      "ws://127.0.0.1:3846",
-      "http://127.0.0.1:3846"
-    ],
+    "allowedDomains": ["ws://localhost:3846", "http://localhost:3846"],
+    "devAllowedDomains": ["ws://localhost:3846", "http://localhost:3846"],
     "reasoning": "Connects to a local MCP bridge controlled by the user."
   }
 }

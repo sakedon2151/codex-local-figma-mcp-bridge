@@ -30,8 +30,6 @@ Allowed aliases in Figma manifest:
 
 - `ws://localhost:3846`
 - `http://localhost:3846`
-- `ws://127.0.0.1:3846`
-- `http://127.0.0.1:3846`
 
 The server must bind to loopback by default. It must not bind to `0.0.0.0` in normal mode.
 

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "local-figma": {
+      "command": "node",
+      "args": [
+        "--import",
+        "tsx",
+        "/Users/nimnas/Documents/Personal/codex-talk-to-figma-project/src/mcp/server.ts"
+      ],
+      "cwd": "/Users/nimnas/Documents/Personal/codex-talk-to-figma-project"
+    }
+  }
+}

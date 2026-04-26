@@ -1,0 +1,33 @@
+{
+  "name": "local-figma",
+  "version": "0.1.2",
+  "description": "Expose the project-local Figma bridge MCP server to Codex.",
+  "author": {
+    "name": "Local Figma MCP Project"
+  },
+  "homepage": "https://github.com/local/local-figma",
+  "repository": "https://github.com/local/local-figma",
+  "license": "MIT",
+  "keywords": ["figma", "mcp", "local-bridge", "codex"],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Local Figma MCP",
+    "shortDescription": "Use the local Figma Desktop bridge from Codex",
+    "longDescription": "Runs this repository's local-figma MCP server so Codex can pair with the Figma Desktop plugin through a loopback WebSocket bridge.",
+    "developerName": "Local Figma MCP Project",
+    "category": "Design",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://github.com/local/local-figma",
+    "privacyPolicyURL": "https://github.com/local/local-figma",
+    "termsOfServiceURL": "https://github.com/local/local-figma",
+    "defaultPrompt": [
+      "Show local-figma pairing status",
+      "Read the current Figma selection",
+      "Create a frame in the open Figma draft"
+    ],
+    "brandColor": "#0D99FF",
+    "composerIcon": "./assets/local-figma-small.svg",
+    "logo": "./assets/local-figma.svg",
+    "screenshots": []
+  }
+}

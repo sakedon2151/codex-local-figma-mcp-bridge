@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Local Figma MCP">
+  <rect width="64" height="64" rx="14" fill="#0D99FF" />
+  <path d="M20 19h15a8 8 0 0 1 0 16H20V19Z" fill="#fff" />
+  <path d="M20 35h15a8 8 0 0 1 0 16H20V35Z" fill="#fff" opacity=".78" />
+  <circle cx="44" cy="27" r="8" fill="#1E1E1E" />
+  <path d="M43 22v10l7-5-7-5Z" fill="#fff" />
+</svg>

@@ -68,6 +68,11 @@ Output:
       "port": 3846,
       "transport": "stdio"
     },
+    "pairing": {
+      "sessionId": "ses_...",
+      "pairingToken": "000000",
+      "expiresAt": "2026-04-26T00:10:00.000Z"
+    },
     "plugin": {
       "paired": true,
       "lastHeartbeatAt": "2026-04-26T00:00:00.000Z",
@@ -91,8 +96,9 @@ When no plugin is paired, include safe pairing guidance:
       "paired": false
     },
     "pairing": {
-      "tokenRequired": true,
-      "tokenExpiresAt": "2026-04-26T00:10:00.000Z"
+      "sessionId": "ses_...",
+      "pairingToken": "000000",
+      "expiresAt": "2026-04-26T00:10:00.000Z"
     }
   }
 }

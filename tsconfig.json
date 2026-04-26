@@ -16,12 +16,11 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "types": ["node", "vitest/globals"],
-    "baseUrl": ".",
     "paths": {
-      "@shared/*": ["src/shared/*"],
-      "@bridge/*": ["src/bridge/*"],
-      "@mcp/*": ["src/mcp/*"],
-      "@plugin/*": ["src/plugin/*"]
+      "@shared/*": ["./src/shared/*"],
+      "@bridge/*": ["./src/bridge/*"],
+      "@mcp/*": ["./src/mcp/*"],
+      "@plugin/*": ["./src/plugin/*"]
     }
   },
   "include": [

@@ -2,3 +2,4 @@ node_modules
 dist
 REFERENCE
 package-lock.json
+*.svg
